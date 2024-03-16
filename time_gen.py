@@ -9,6 +9,6 @@ def time_gen():
         
 
 if __name__ == "__main__":
-    timer = perf_counter_generator()
+    timer = time_gen()
     for elapsed_time in timer:
         print(f"Elapsed time: {elapsed_time} seconds")
