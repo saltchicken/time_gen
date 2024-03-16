@@ -1,6 +1,6 @@
 import time
 
-def time_gen():
+def timer_gen():
     last_time = time.perf_counter()
     while True:
         current_time = time.perf_counter()
