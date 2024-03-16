@@ -9,7 +9,7 @@ def time_gen():
         yield time_diff
 
 if __name__ == "__main__":
-    timer = time_gen()
+    timer = timer_gen()
     for elapsed_time in timer:
         print(f"Elapsed time: {elapsed_time} seconds")
         time.sleep(0.5)
