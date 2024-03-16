@@ -1,7 +1,8 @@
 # timer_gen
 
 ```python
-timer = time_gen()
+from timer_gen import timer_gen
+timer = timer_gen()
 print(next(timer))
 ```
 
