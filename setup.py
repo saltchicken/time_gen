@@ -8,4 +8,5 @@ setup(
     install_requires=[
         # list your dependencies here if you have any
     ],
+    py_modules=['time_gen'],
 )
